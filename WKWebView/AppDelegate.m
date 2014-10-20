@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    double test = 12345678901234567890;
+    double test = 12345678901234567890; //test merge
     NSLog(@"%f", test);
     //test mm
     return YES;
