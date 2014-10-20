@@ -21,7 +21,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    double test = 12345678901234567890; //test merge
+    double test = 12345678901234567890; //test merge 2
     NSLog(@"%f", test);
     return YES;
 }
@@ -42,6 +42,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    //test 222222
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
